@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'nulshock';
+    src: url('nulshockbd.otf') format('opentype');
+}
+
+body {
+    background-image: linear-gradient(to left, #022B3A, #BFDBF7);
+}
