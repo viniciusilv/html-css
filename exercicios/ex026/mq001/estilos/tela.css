@@ -18,11 +18,15 @@ header {
 
 header > h1 {
     text-align: center;
+    padding: 20px 10px;
+    font-weight: normal;
+    font-variant: small-caps;
 }
 
 menu ul {
     list-style-type: none;
     background-color: gray;
+    padding: 5px;
 }
 
 menu li {
@@ -30,6 +34,7 @@ menu li {
     padding: 10px;
     color: white;
     background-color: rgb(92, 89, 89);
+    border-radius: 5px;
 }
 
 article {
