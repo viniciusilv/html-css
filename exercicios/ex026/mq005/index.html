@@ -6,9 +6,10 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Media Query</title>
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">
@@ -34,6 +35,15 @@
     </main>
 
     <script>
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 801){
+                menu__principal.style.display = 'block'
+            } else {
+                menu__principal.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if (menu__principal.style.display == 'block') {
                 menu__principal.style.display = 'none'
